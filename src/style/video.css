@@ -1,0 +1,49 @@
+body{
+    background: #4e4d4d;
+    color: floralwhite;
+}
+.video-item {
+    display: flex;
+    align-items: left;
+    cursor: pointer;
+    columns: 3 auto;
+}
+
+.video-item.item img {
+    max-width: 400px;
+    max-height: 300px;
+    columns: 3 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.video-container{
+    columns: 3 auto;
+}
+button.login-btn{
+    width   : 320px;
+    height  : 80px;
+    text-align:center;
+    align-items:center;
+    color: floralwhite;
+    cursor: pointer;
+}
+
+.content{
+    align-content: center;
+    padding-top: 75px;
+}
+
+.search-input{
+    color: floralwhite;
+}
+
+.ui-embed{
+    cursor: pointer;
+    width: 400px;
+    height: 30px;
+    padding-bottom: 80px;
+}
+.ui-header{
+    padding-top: 100px;
+}
